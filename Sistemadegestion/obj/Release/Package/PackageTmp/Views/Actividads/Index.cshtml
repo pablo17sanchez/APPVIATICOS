@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Model.Actividad>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-success" })
+</p>
+<table class="table table-striped table-bordered table-advance table-hover">
+    <tr>
+        <th>
+          Codigo de actividad
+        </th>
+        <th>
+         Descripcion de Actividad
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.COD_ACTIVIDAD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DESC_ACTIVIDAD)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.id }, new { @class = "btn btn-primary" })
+                @*@Html.ActionLink("Details", "Details", new { id=item.id }) |*@
+                @Html.ActionLink("Borrar", "Delete", new { id = item.id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

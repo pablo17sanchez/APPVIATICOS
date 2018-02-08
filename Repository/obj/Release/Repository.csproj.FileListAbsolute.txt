@@ -1,0 +1,28 @@
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Repository.dll.config
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Repository.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Repository.pdb
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\EntityFramework.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Model.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Model.pdb
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\EntityFramework.xml
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\obj\Release\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\obj\Release\Repository.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Repository\obj\Release\Repository.pdb
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Helper.dll
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Repository\bin\Release\Helper.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Repository.dll.config
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Repository.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Repository.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\EntityFramework.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Helper.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Model.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Helper.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\Model.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\EntityFramework.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\obj\Release\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\obj\Release\Repository.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Repository\obj\Release\Repository.pdb

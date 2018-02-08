@@ -1,0 +1,220 @@
+﻿@model IEnumerable<Model.formularionomina>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Identificacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tipo_identificacion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Capitulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subcapitulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DAF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Programa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subprograma)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Proyecto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Actividad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Objeto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fondo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Organismo_Financiador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tarjeta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.codigo_del_banco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tipo_de_cuenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nodecuentabancaria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Codigo_de_moneda)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaActual)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Beneficiario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Concepto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cedula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaNomina)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombredelDepartamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Codigodepartamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Codigocargo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Region)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Provincia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Municipio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Funcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CCP)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Identificacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tipo_identificacion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Capitulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subcapitulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DAF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Programa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Subprograma)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Proyecto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Actividad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Objeto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fondo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Organismo_Financiador)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tarjeta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.codigo_del_banco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tipo_de_cuenta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nodecuentabancaria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Codigo_de_moneda)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaActual)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Beneficiario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cargo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Concepto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cedula)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaNomina)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombredelDepartamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Codigodepartamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Codigocargo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Region)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Provincia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Municipio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Funcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CCP)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

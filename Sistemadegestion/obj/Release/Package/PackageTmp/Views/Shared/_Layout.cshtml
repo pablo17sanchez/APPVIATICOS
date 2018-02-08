@@ -1,0 +1,237 @@
+﻿@{
+
+
+    Sistemadegestion.Controllers.LoginController siste = new Sistemadegestion.Controllers.LoginController();
+
+
+    var result = siste.Obtener(Helper.SessionHelper.GetUser());
+
+
+
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de viaticos">
+    <meta name="author" content="GeeksLabs">
+    <meta name="keyword" content="Viaticos, Inabie, Sistema, Theme, Nomina">
+
+
+    <title>Sistema de gestion de viaticos</title>
+
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+  
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet">
+ 
+    <link href="~/Content/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="~/Content/style.css">
+
+    <link href="~/Content/style.css" rel="stylesheet">
+    <link href="~/Content/style-responsive.css" rel="stylesheet" />
+    <link href="~/Content/elegant-icons-style.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+ 
+
+    <link rel="stylesheet" type="text/css" href="~/css/datatables.min.css" />
+
+    @*<script src="https://code.jquery.com/jquery-1.12.4.js"></script>*@
+    <script src="~/Scripts/jquery-3.3.1.min.js"> </script>
+
+    @*<script src="~/Scripts/jquery-1.12.4.min.js" ></script>*@
+
+
+    <!-- =====================================================
+      Author: Pablo Sanchez
+      Mail: pablo17sanchez@gmail.com
+    ======================================================= -->
+
+
+
+</head>
+
+
+
+<body>
+
+    <section id="container" class="">
+        <!--header start-->
+        <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="glyphicon glyphicon-list-alt"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="index.html" class="logo">SITEMA <span class="lite">GESTION DE VIATICOS</span></a>
+            <!--logo end-->
+
+            <div class="nav search-row" id="top_menu">
+
+            </div>
+
+            <div class="top-nav notification-row">
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+
+
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="profile-ava">
+                                <img alt="" src="img/avatar1_small.jpg">
+                            </span>
+                            <span class="username">
+                                @if (result != null)
+                                {
+
+                                    @result.Nombre.ToString().ToUpper()  @result.Apellido.ToString().ToUpper()
+
+                                }
+                            </span>    
+                            <b class="caret"></b>
+                           
+
+                        </a>
+                         
+                        <ul class="dropdown-menu extended logout">
+                            @*<div class="log-arrow-up"></div>*@
+                            <li class="eborder-top">
+                                <a href="/Login/Create"><i class="glyphicon glyphicon-user"></i>Crear nuevo perfil</a>
+                            </li>
+
+                            <li>
+                                texto
+                            </li>
+
+                            <li>
+                                @Html.ActionLink("Logout", "Logout", "Login")
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+
+        </header>
+        <!--header end-->
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse ">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">
+                    <li class="active">
+                        <a class="" href="#">
+                            <i class="glyphicon glyphicon-dashboard"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="glyphicon glyphicon-certificate"></i>
+                            <span>Forms</span>
+                            @*<span class="menu-arrow arrow_carrot-right"></span>*@
+                        </a>
+                        <ul class="sub">
+                            <li>@Html.ActionLink("Formulario Viaticos", "Create", "Home")</li>
+                            <li>@Html.ActionLink("Formulario Municipio", "Create", "Municipios")</li>
+                            <li>@Html.ActionLink("Formulario Provincia", "Create", "Provincias")</li>
+                            <li>@Html.ActionLink("Formulario Objetales", "Create", "Objetals")</li>
+                            <li>@Html.ActionLink("Formulario Actividades", "Create", "Actividads")</li>
+                            <li>@Html.ActionLink("Formulario Regiones", "Create", "Regions")</li>
+                            <li>@Html.ActionLink("Crear nuevo usuario", "Create", "Login")</li>
+                           
+
+
+
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="glyphicon glyphicon-magnet"></i>
+                            <span>Revicion de tablas</span>
+
+                        </a>
+                        <ul class="sub">
+                            <li>@Html.ActionLink("Lista Nomina", "List", "Home")</li>
+                            <li>@Html.ActionLink("Lista Municipio", "Index", "Municipios")</li>
+                            <li>@Html.ActionLink("Lista de Provincias", "Index", "Provincias")</li>
+                            <li>@Html.ActionLink("Lista de  Objetales", "Index", "Objetals")</li>
+                            <li>@Html.ActionLink("Lista de  Actividades", "Index", "Actividads")</li>
+                            <li>@Html.ActionLink("Lista de  Regiones", "Index", "Regions")</li>
+
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a href="javascript:;" class="">
+                            <i class="glyphicon glyphicon-magnet"></i>
+                            <span>Generear TXT</span>
+
+                        </a>
+                        <ul class="sub">
+
+                            <li>@Html.ActionLink("Generar TXT Viatic", "Index", "Report")</li>
+
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>
+        <!--sidebar end-->
+        <!--main content start-->
+        <section id="main-content">
+            <section class="wrapper">
+
+                <!-- Form validations -->
+                @RenderBody()
+
+
+                <!-- page end-->
+            </section>
+        </section>
+        <!--main content end-->
+        <div class="text-right">
+            <div class="credits">
+                
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.scrollTo.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.nicescroll.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="~/Scripts/datatables.min.js"></script>
+    <script src="~/Scripts/scripts.js"></script>
+    @RenderSection("Scripts", false);
+  
+
+
+</body>
+
+
+</html>

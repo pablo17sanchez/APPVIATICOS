@@ -1,0 +1,375 @@
+﻿@model  Model.ViewModel.formularioviewmodel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-files-o"></i>Formulario Nomina</h3>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="icon_document_alt"></i>Form</li>
+            <li><i class="fa fa-files-o"></i>Nomina</li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Formulario de viaticos
+            </header>
+            <div class="panel-body">
+                <div class="form">
+                    @using (Html.BeginForm("Create", "Home", FormMethod.Post, new { @class = "form-validate form-horizontal" }))
+                    {
+
+                        //       @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-primary font-weight-bold" })
+
+                        <!--
+                        <div class="form-group">
+                            <label for="Tipo_identificacion" class="control-label col-lg-2">Tipo de identificación<span class="required">*</span></label>
+                            @* @Html.LabelFor(model => model.Identificacion, htmlAttributes: new { @class = "control-label col-lg-2" })*@
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.Tipo_identificacion, new List<SelectListItem>
+                                 {
+                                     new SelectListItem{Text="Cedula", Value="1"},
+                                 new SelectListItem{Text="Pasaporte", Value="2"},
+                                 new SelectListItem{Text="Rnc", Value="3"}}
+
+                              , new { @class = "form-control input-sm m-bot15" })
+
+                                @Html.ValidationMessageFor(model => model.formulario.Tipo_identificacion, "", new { @class = "text-primary" })
+                            </div>
+                        </div>
+                            -->
+
+
+                        <div class="form-group ">
+                            <label for="Identificacion" class="control-label col-lg-2">Numero de identificacion <span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @* @Html.LabelFor(model => model.Identificacion, htmlAttributes: new { @class = "control-label col-lg-2" })*@
+                                @Html.EditorFor(model => model.formulario.Identificacion, new { htmlAttributes = new { @type = "number", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.Identificacion, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="form-group ">
+                            <label for="Identificacion" class="control-label col-lg-2">Nombre del beneficiario<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.Beneficiario, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.Beneficiario, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group ">
+
+                            <label for="Codigocargo" class="control-label col-lg-2">Nombre del Departamento<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.NombredelDepartamento, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.NombredelDepartamento, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+
+                            <label for="Codigocargo" class="control-label col-lg-2">Numero de cuenta<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.Nodecuentabancaria, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                @Html.ValidationMessageFor(model => model.formulario.Nodecuentabancaria, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group ">
+
+                            <label for="Cargo" class="control-label col-lg-2">Cargo del beneficiario<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.Cargo, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.Cargo, "", new { @class = "text-primary font-weight-bold",  })
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <label for="Cargo" class="control-label col-lg-2">Tarjeta<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.Tarjeta, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.Tarjeta, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="form-group ">
+
+                            <label for="Objeto" class="control-label col-lg-2">Objetal<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.Objeto, new SelectList(Model.ObjetalList, "Value", "Text"), "- Please Select -", new { @class = "form-control input-sm m-bot15"})
+                                @Html.ValidationMessageFor(model => model.formulario.Objeto, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="form-group ">
+
+                            <label for="Cargo" class="control-label col-lg-2">Actividades<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.Actividad, new SelectList(Model.ActividadList, "Value", "Text"), "- Please Select -", new { @class = "form-control input-sm m-bot15" })
+                                @Html.ValidationMessageFor(model => model.formulario.Actividad, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+
+
+                        @*<div class="form-group ">
+
+                            <label for="Cargo" class="control-label col-lg-2">Tipo de Cuenta<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.tipo_de_cuenta, new SelectList(Model.TipodeCuentaList, "Value", "Text"), "- Please Select -", new { @class = "form-control input-sm m-bot15" })
+                                @Html.ValidationMessageFor(model => model.formulario.tipo_de_cuenta, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>*@
+
+
+
+
+
+                 
+
+
+
+
+
+
+                        <div class="form-group ">
+
+                            <label for="Region" class="control-label col-lg-2">Region<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.Region, new SelectList(Model.Regionlist, "Value", "Text"), "- Please Select -", new { @class = "form-control input-sm m-bot15" })
+                                @Html.ValidationMessageFor(model => model.formulario.Region, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+                        <div class="form-group ">
+
+                            <label for="Provincia" class="control-label col-lg-2">Provincia<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.Provincia, new SelectList(Model.ProvinciasList, "Value", "Text"), "- Please Select -", new { @class = "form-control input-sm m-bot15", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.formulario.Provincia, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+                        <div class="form-group ">
+
+                            <label for="Municipio" class="control-label col-lg-2">Municipios<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.DropDownListFor(model => model.formulario.Municipio, new SelectList(Model.MunicipioList, "Value", "Text"), "- Please Select -", new { @class = "form-control input-sm m-bot15", disabled = "disabled" })
+                                @Html.ValidationMessageFor(model => model.formulario.Municipio, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group ">
+
+                            <label for="Cargo" class="control-label col-lg-2">Monto Viatico<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.MontoViatico, new { htmlAttributes = new { @type = "number", @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.MontoViatico, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group ">
+
+                            <label for="Concepto" class="control-label col-lg-2">Concepto<span class="required">*</span></label>
+                            <div class="col-lg-10">
+                                @Html.EditorFor(model => model.formulario.Concepto, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.formulario.Concepto, "", new { @class = "text-primary font-weight-bold" })
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button class="btn btn-primary" type="submit" id="savebutton">Guardar</button>
+                                <button class="btn btn-default" type="button">Cancel</button>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>
+
+
+@section Scripts{
+<script type="text/javascript">
+
+
+    $(document).ready(function () {
+
+        var provincias = $('#formulario_Provincia');
+
+
+
+        $("#formulario_Region").change(function () {
+
+            var regionvalue = $("#formulario_Region").val();
+
+
+            $.getJSON("/Home/getprovincias/", { regionid: regionvalue }, function (response) {
+                provincias.empty();
+                $("#formulario_Provincia").append('<option >-Please Select-</option>');
+                $.each(response, function (index, item) {
+                    console.log('VALOR ' + item.Value);
+                    console.log('NOMBRE ' + item.Text);
+
+
+
+
+                    /* $("#formulario_Provincia").append("<option value='"+item.Value+"'>"+item.Value+"</option>");*/
+
+
+                    $("#formulario_Provincia").append('<option value=' + item.Value + '>' + item.Text + '</option>');
+
+                    $("#formulario_Provincia").removeAttr('disabled');
+
+
+                });
+            });
+        });
+
+        /*CAMBIO DE MENU PROVINCIA*/
+
+        $("#formulario_Provincia").change(function () {
+
+            var provinciavalue = $("#formulario_Provincia").val();
+
+
+            console.log("se activo el cambio");
+
+            $.getJSON("/Home/Gemunicipios/", { provinciaid: provinciavalue }, function (response) {
+
+                $("#formulario_Municipio").empty();
+
+                $("#formulario_Municipio").append('<option >-Please Select-</option>');
+                $.each(response, function (index, item) {
+                    console.log('VALOR ' + item.Value);
+                    console.log('NOMBRE ' + item.Text);
+
+
+
+
+                    /* $("#formulario_Provincia").append("<option value='"+item.Value+"'>"+item.Value+"</option>");*/
+
+
+                    $("#formulario_Municipio").append('<option value=' + item.Value + '>' + item.Text + '</option>');
+
+                    $("#formulario_Municipio").removeAttr('disabled');
+
+
+                });
+            });
+        });
+
+
+
+        $("#formulario_Identificacion").keypress(function () {
+
+
+
+
+
+            $.ajax({
+                url: '/Home/Gerpersonal/',
+                type: 'GET',
+                dataType: 'JSON',
+                data: { cedula: $("#formulario_Identificacion").val() },
+            })
+    .done(function (data) {
+        // console.log("success");
+        // alert(data.NombreYApellido);
+
+        $("#formulario_Beneficiario").val(data.NombreYApellido);
+        // formulario_Nodecuentabancaria
+        $("#formulario_Nodecuentabancaria").val(data.CuentaBancaria);
+        $("#formulario_Cargo").val(data.Cargo);
+        $("#formulario_MontoViatico").val(data.MontoViaticos);
+        $("#formulario_NombredelDepartamento").val(data.Departamento);
+    })
+    .fail(function () {
+        //   console.log("error");
+    })
+    .always(function () {
+        // console.log("complete");
+    });
+
+
+
+
+
+
+        });
+
+
+
+
+
+
+
+
+
+
+    });
+
+
+
+
+
+
+</script>
+
+}
+

@@ -1,0 +1,56 @@
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Sistemadegestion.dll.config
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Sistemadegestion.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Sistemadegestion.pdb
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Model.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Helpers.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Mvc.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Razor.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Deployment.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Razor.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Model.pdb
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Razor.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Deployment.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Razor.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Helpers.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\System.Web.Mvc.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\obj\Debug\Sistemadegestion.csprojResolveAssemblyReference.cache
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\obj\Debug\Sistemadegestion.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\obj\Debug\Sistemadegestion.pdb
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\EntityFramework.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\EntityFramework.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\EntityFramework.SqlServer.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\EntityFramework.SqlServer.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Repository.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Repository.pdb
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Helper.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Sistemadegestion\bin\Helper.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Sistemadegestion.dll.config
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Sistemadegestion.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Sistemadegestion.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\EntityFramework.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\EntityFramework.SqlServer.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Helper.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Model.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Repository.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Helpers.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Mvc.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Razor.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Razor.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Helper.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Model.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\Repository.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\EntityFramework.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\EntityFramework.SqlServer.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Razor.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Webpages.Razor.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Helpers.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\bin\System.Web.Mvc.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\obj\Debug\Sistemadegestion.csprojResolveAssemblyReference.cache
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\obj\Debug\Sistemadegestion.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Sistemadegestion\obj\Debug\Sistemadegestion.pdb

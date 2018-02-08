@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+ <!-- Inline form-->
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+            Generar Viaticos TXT
+                    
+                        </header>
+            <div class="panel-body">
+@using (Html.BeginForm("SaveData", "Report", FormMethod.Get, new { @class = "form-inline" }))
+{
+
+                    <div class="form-group">
+                        <label class="control-label" for="fdesde">Fecha Desde</label>
+                        <input type="datetime" class="form-control" id="fdesde_id" placeholder="" name="fdesde">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="fhasta">Fecha Hasta</label>
+                        <input type="datetime" class="form-control" id="fhasta_id" name="fhasta" placeholder="">
+                    </div>
+                  
+                    <button type="submit" class="btn btn-primary" id="actionsend">Enviar</button>
+                
+    
+}
+
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<script>
+
+
+
+
+
+    $(document).ready(function () {
+        $("#fdesde_id").datepicker();
+        $("#fhasta_id").datepicker();
+    });
+
+
+
+
+
+
+
+
+</script>

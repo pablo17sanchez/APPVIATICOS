@@ -1,0 +1,77 @@
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\Model.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\Model.pdb
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.pdb
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\Model.dll.config
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\EntityFramework.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\EntityFramework.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.creacionbasededatos.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_campo_tipo_documento.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.identificaion_dataformat.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiandonaturalezas_de_campos_capitulo.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_campo_fecha.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_naturaleza_del_campo_daf_ue_programa_subprograma_proyecto.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_naturaleza_del_campo_objeto.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_naturaleza_del_campo_actividad.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.creacion_de_tabla_actividad.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_la_naturaleza_fondo.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_la_naturaleza_de_organismofinanciador_y_fondo.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_la_naturaleza_de_organismofinanciador_y_fondas.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_la_naturaleza_del_campo_concepto.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_campo_codigo_departamento.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_campos_del_banco.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_tabla_Tipo_cuenta.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_tabla_moneda.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_tabla_monedas_de_verdad.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_tabla_funciones.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_tamano_de_codigoobjetal_tamano_enlatablaobjetal.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_naturaleza_fecha_nomina.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_naturaleza_fecha_nomina_otra_vez.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_naturaleza_fecha_nomina_otra_vez_v.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_naturaleza_fecha_nomina_otra_vez_v_2.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_codigo_de_identificacion.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_cedula_to_string.resources
+c:\users\opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_capitulo_to_string.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.identificacion_cambio.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.region_provincia_municipio_notnull.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.unique_for_municipes.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.unique_for_municipes_quiet.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.unique_for_municipes_quiet_add_other_remove.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_el_tamano_de_algunas_tablas.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambiar_para_que_funcione.resources
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\bin\Debug\Helper.dll
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\bin\Debug\Helper.pdb
+C:\Users\Opdbd01\Documents\Visual Studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.agregar_login_usuario.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.enlace_usuario_formulario.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.enlace_usuario_formulario_userid.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.carga_de_la_tabla_personal_inabie.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_tabla_personal_nomina.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_tabla_personal_nomina_a.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.cambio_tabla_personal_nomina_a_a.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.personal_a.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.personal_cambio_xx.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.personal_cambio_xxx.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.personal_cambio_xxxx.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.formulario_principal_agregar_campo_monto_viatico.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.formulario_principal_agregar_campo_monto_viatico_a.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.formulariosdx.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.montoviaticos.resources
+C:\Users\Opdbd01\documents\visual studio 2013\Projects\Sistemadegestion\Model\obj\Debug\Model.Migrations.montoviaticos11.resources
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\Model.dll.config
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\Model.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\Model.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\EntityFramework.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\Helper.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\Helper.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\EntityFramework.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\obj\Debug\Model.dll
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\obj\Debug\Model.pdb
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\obj\Debug\Model.Migrations.firtsmigration.resources
+C:\Users\Opdbd02\Desktop\Sistemadegestion\Model\obj\Debug\Model.csproj.GenerateResource.Cache

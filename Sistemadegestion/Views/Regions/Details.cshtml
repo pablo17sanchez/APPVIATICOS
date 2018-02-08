@@ -1,0 +1,35 @@
+﻿@model Model.Region
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Region</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.COD_REGION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.COD_REGION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOM_REGION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM_REGION)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

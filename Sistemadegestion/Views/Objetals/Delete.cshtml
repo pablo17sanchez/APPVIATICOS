@@ -1,0 +1,65 @@
+﻿@model Model.Objetal
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-files-o"></i>Formulario borrar Objetal</h3>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="icon_document_alt"></i>Delete</li>
+            <li><i class="fa fa-files-o"></i>Objetal</li>
+        </ol>
+    </div>
+</div>
+
+
+<h3>Estas seguro de que quieres borrar este Objetal?</h3>
+<div>
+    <h4>Objetal</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.codigo_objetal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.codigo_objetal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_objetal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_objetal)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class="col-xs-offset-1 btn btn-danger" /> 
+            @*@Html.ActionLink("Back to List", "Index")*@
+        </div>
+    }
+</div>
+</div>
+<div>
+    @*@Html.ActionLink("Back to List", "Index")*@
+</div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+﻿@model Model.Actividad
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-files-o"></i>Formulario borrar Objetal</h3>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="icon_document_alt"></i>Delete</li>
+            <li><i class="fa fa-files-o"></i>Actividad</li>
+        </ol>
+    </div>
+</div>
+
+
+<h3>Estas seguro de que quieres borrar esta Actuvudad?</h3>
+<div>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.COD_ACTIVIDAD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.COD_ACTIVIDAD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DESC_ACTIVIDAD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESC_ACTIVIDAD)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Borrar" class=" col-xs-offset-1 btn btn-danger" /> 
+            @*@Html.ActionLink("Back to List", "Index")*@
+        </div>
+    }
+    <div>
+        @*@Html.ActionLink("Back to List", "Index")*@
+    </div>
+</div>
+
+            </div>
+        </section>
+    </div>
+</div>

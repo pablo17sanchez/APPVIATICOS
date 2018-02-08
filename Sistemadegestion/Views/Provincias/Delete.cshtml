@@ -1,0 +1,49 @@
+﻿@model Model.Provincia
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Esta seguro  que desea borrar la provincia?</h3>
+<div>
+    <h4>Provincia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+         CODIGO REGION
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.COD_REGION)
+        </dd>
+
+        <dt>
+            CODIGO DE PROVINCIA
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.COD_PROVINCIA)
+        </dd>
+
+        <dt>
+         NOMBRE DE PROVINCIA
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOM_PROVINCIA)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger col-xs-offset-2" /> 
+            @*@Html.ActionLink("Back to List", "Index")*@
+        </div>
+    }
+</div>
